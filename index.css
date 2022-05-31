@@ -509,5 +509,11 @@ hr
 		margin-bottom: 2rem;
 		border-radius: 0px 0px 5px 5px ;
 	}
+
+	.main_header
+	{
+		width: 95vw;
+		margin-left: 5vw;
+	}
 }
 
