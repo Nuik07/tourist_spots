@@ -403,10 +403,14 @@ hr
 
 @media screen and (max-width: 800px) {
 
+	html{
+		width: 90vw;
+	}
+
 	.image_quote
 	{
-		margin-left: 5vw;
-		width: 95vw; /* The width is 100%, when the viewport is 800px or smaller */
+		margin-left: 2vw;
+		width: 90vw; /* The width is 100%, when the viewport is 800px or smaller */
 	}
 	.main
 	{
@@ -417,7 +421,7 @@ hr
 	{
 		position: absolute;
 		color: white;
-		margin-left: 20vw;
+		margin-left: 15vw;
 		margin-top: 45vw;
 		font-size: 1.55rem;
 		font-family: Arial;
@@ -429,34 +433,34 @@ hr
 	.secondary_content
 	{
 		position: relative;
-		margin-left: 5vw;
-		width: 95vw;
+		margin-left: 2vw;
+		width: 90vw;
 	}
 
 	.map
 	{
-		margin-left: 5vw;
-		width: 95vw;
+		margin-left: 2vw;
+		width: 90vw;
 	}
 
 	.obeservation
 	{
-		margin-left: 5vw;
+		margin-left: 10vw;
 	}
 
 		.species_button:first-child
     {
-    	margin-left: 8vw;
+    	margin-left: 2vw;
     }
 
     .species_button
    {
-   	margin-left: 20vw;
+   	margin-left: 15vw;
    }
 
 	.species_button:last-child
     {
-    	margin-left: 15vw;
+    	margin-left: 12vw;
     	margin-bottom: 2rem;
     }
 
@@ -487,7 +491,7 @@ hr
 	
    .image
 	{
-		width: 95vw;
+		width: 90vw;
 		height: 50vh;
 	}
 
@@ -495,7 +499,6 @@ hr
 	{
 		position: relative;
 		display: block;
-		width: 95vw;
 	}
 
 	.image_details
@@ -503,7 +506,7 @@ hr
 		position: relative;
 		display:block; 
 		/*background-color: blue; */
-		width: 95vw; 
+		width: 90vw; 
 		height: 70vh;
 		box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 		margin-bottom: 2rem;
@@ -512,8 +515,8 @@ hr
 
 	.main_header
 	{
-		width: 95vw;
-		margin-left: 5vw;
+		width: 90vw;
+		margin-left: 2vw;
 	}
 }
 
