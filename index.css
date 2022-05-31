@@ -18,8 +18,8 @@ html
 .main
 {
 	margin-top: 1rem;
-	margin-right: 20vw;
-	margin-left: 17vw;
+	margin-right: 25vw;
+	margin-left: 18vw;
 }
 
 .nav_btn
@@ -62,13 +62,16 @@ html
 	margin-right: 10%;
 	margin-left: 25%;
 	color: white;
-	margin-top: 20%;
+	margin-top: 25vh;
 	font-size: 1.55rem;
 	font-family: Arial;
 	font-style: italic;
 	font-weight: 500;
 	text-align: center;
 	z-index: 2;
+	font-family: cursive;
+	opacity: 100%;
+	color: #F0F0F0;
 }
 
 .secondary_content
