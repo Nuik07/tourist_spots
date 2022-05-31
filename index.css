@@ -78,9 +78,10 @@ html
 {
 	position: relative;
 	font-family: Arial;
-	font-weight: 100;
-	font-size: .7rem;
+	font-weight: 500;
+	font-size: 1rem;
 	margin-bottom: 2rem;
+	width: 62vw;
 }
 
 .para_overview
@@ -106,6 +107,7 @@ html
 	font-weight: 100;
 	font-size: .7rem;
 	margin-bottom: 2rem;
+	width: 62vw;
 }
 
 
@@ -249,7 +251,7 @@ textarea:focus, input:focus{
 	margin-left: 1rem;
 	position: relative;
 	display: block;
-	width: 100%;
+	width: 61.5vw;
 }
 
 
@@ -400,8 +402,10 @@ hr
 
 
 @media screen and (max-width: 800px) {
+
 	.image_quote
 	{
+		margin-left: 5vw;
 		width: 95vw; /* The width is 100%, when the viewport is 800px or smaller */
 	}
 	.main
@@ -413,8 +417,8 @@ hr
 	{
 		position: absolute;
 		color: white;
-		margin-left: 10%;
-		margin-top: 16%;
+		margin-left: 20vw;
+		margin-top: 45vw;
 		font-size: 1.55rem;
 		font-family: Arial;
 		font-style: italic;
@@ -425,22 +429,41 @@ hr
 	.secondary_content
 	{
 		position: relative;
+		margin-left: 5vw;
+		width: 95vw;
 	}
 
-	.class_of_species
+	.map
 	{
-		margin-left: 25%;
+		margin-left: 5vw;
+		width: 95vw;
 	}
+
+	.obeservation
+	{
+		margin-left: 5vw;
+	}
+
+		.species_button:first-child
+    {
+    	margin-left: 8vw;
+    }
+
+    .species_button
+   {
+   	margin-left: 20vw;
+   }
 
 	.species_button:last-child
     {
-    	margin-left: 35%;
+    	margin-left: 15vw;
     	margin-bottom: 2rem;
     }
 
-    .category_of_species
+  .category_of_species
 	{
 		margin-top: 2rem;
+		margin-left: 0 px;
 	}
 
 	.category_button
@@ -464,26 +487,24 @@ hr
 	
    .image
 	{
-		width: 100%;
-		height: 100%;
+		width: 95vw;
+		height: 50vh;
 	}
 
 	.image_container
 	{
 		position: relative;
 		display: block;
-		/*background-color: yellow; */
-		width: 98%;
+		width: 95vw;
 	}
 
 	.image_details
 	{
-		margin-left: 21%;
 		position: relative;
 		display:block; 
 		/*background-color: blue; */
-		width: 23.5rem; 
-		height: 32.5rem;
+		width: 95vw; 
+		height: 70vh;
 		box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 		margin-bottom: 2rem;
 		border-radius: 0px 0px 5px 5px ;
